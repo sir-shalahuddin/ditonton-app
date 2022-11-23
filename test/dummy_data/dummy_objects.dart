@@ -1,7 +1,10 @@
 import 'package:ditonton/data/models/movie_table.dart';
+import 'package:ditonton/data/models/tv_table.dart';
 import 'package:ditonton/domain/entities/genre.dart';
 import 'package:ditonton/domain/entities/movie.dart';
 import 'package:ditonton/domain/entities/movie_detail.dart';
+import 'package:ditonton/domain/entities/tv.dart';
+import 'package:ditonton/domain/entities/tv_detail.dart';
 
 final testMovie = Movie(
   adult: false,
@@ -56,4 +59,58 @@ final testMovieMap = {
   'overview': 'overview',
   'posterPath': 'posterPath',
   'title': 'title',
+};
+
+final testTv = Tv(
+  backdropPath: '/w0eG4lpAigocIZzJYrYp3cCmyUx.jpg',
+  firstAirDate: "2002-12-14",
+  genreIds: [16, 35],
+  id: 2,
+  name: 'The Last Episode Ever',
+  originalLanguage: "en",
+  originalName: "Clerks: The Animated Series",
+  overview:
+      "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+  popularity: 8.636,
+  posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
+  voteAverage: 6.903,
+  voteCount: 72,
+);
+
+final testTvList = [testTv];
+
+final testTvDetail = TvDetail(
+  backdropPath: '/w0eG4lpAigocIZzJYrYp3cCmyUx.jpg',
+  firstAirDate: "2002-12-14",
+  genres : [Genre(id: 16, name: "Animation"),Genre(id: 35, name: "Comedy")],
+  id: 2,
+  name: 'The Last Episode Ever',
+  originalName: "Clerks: The Animated Series",
+  overview:
+  "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+  posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
+  tagline: "",
+  voteAverage: 6.903,
+  voteCount: 72,
+);
+
+final testWatchlistTv = Tv.watchlist(
+  id: 2,
+  name: 'The Last Episode Ever',
+  posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
+  overview:  "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+);
+
+final testTvTable = TvTable(
+  id: 2,
+  name: 'The Last Episode Ever',
+  posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
+  overview:  "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+);
+
+final testTvMap = {
+  "id": 2,
+  "name": 'The Last Episode Ever',
+  "posterPath": '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
+  "overview":  "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
 };

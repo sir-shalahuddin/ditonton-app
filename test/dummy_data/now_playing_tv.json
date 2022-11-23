@@ -1,0 +1,29 @@
+{
+  "dates": {
+    "maximum": "2021-05-23",
+    "minimum": "2021-04-05"
+  },
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": "/w0eG4lpAigocIZzJYrYp3cCmyUx.jpg",
+      "first_air_date": "2002-12-14",
+      "genre_ids": [
+       16,35
+      ],
+      "id": 2,
+      "original_language": "en",
+      "original_name": "Clerks: The Animated Series",
+      "overview": "Overview",
+      "popularity": 8.636,
+      "poster_path": "/xunXvzFlkf1GGgMkCySA9CCFumB.jpg",
+      "release_date": "2020-05-05",
+      "name": "The Last Episode Ever",
+      "video": false,
+      "vote_average": 6.903,
+      "vote_count": 72
+    }
+  ],
+  "total_pages": 47,
+  "total_results": 940
+}

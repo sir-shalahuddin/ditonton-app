@@ -1,0 +1,475 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/ex4kvQb0Ski5KL2fsnKQU2hV3oo.jpg",
+      "id": 1425,
+      "name": "House of Cards",
+      "original_language": "en",
+      "original_name": "House of Cards",
+      "overview": "Set in present day Washington, D.C., House of Cards is the story of Frank Underwood, a ruthless and cunning politician, and his wife Claire who will stop at nothing to conquer everything. This wicked political drama penetrates the shadowy world of greed, sex and corruption in modern D.C.",
+      "poster_path": "/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 51.554,
+      "first_air_date": "2013-02-01",
+      "vote_average": 8.064,
+      "vote_count": 2164,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/A4PHx94G7mvM3b8vsDJ5HEaQ6uv.jpg",
+      "id": 30991,
+      "name": "Cowboy Bebop",
+      "original_language": "ja",
+      "original_name": "カウボーイビバップ",
+      "overview": "In 2071, roughly fifty years after an accident with a hyperspace gateway made the Earth almost uninhabitable, humanity has colonized most of the rocky planets and moons of the Solar System. Amid a rising crime rate, the Inter Solar System Police (ISSP) set up a legalized contract system, in which registered bounty hunters (also referred to as \"Cowboys\") chase criminals and bring them in alive in return for a reward.",
+      "poster_path": "/g05iRzPzWwY2liQ60bvW51lLZHQ.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        16,
+        10759,
+        10765,
+        37
+      ],
+      "popularity": 38.928,
+      "first_air_date": "1998-04-03",
+      "vote_average": 8.5,
+      "vote_count": 1197,
+      "origin_country": [
+        "JP"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pJNvRWK0KsrFILS0xfQOXrauSWS.jpg",
+      "id": 83631,
+      "name": "What We Do in the Shadows",
+      "original_language": "en",
+      "original_name": "What We Do in the Shadows",
+      "overview": "A documentary-style look into the daily (or rather, nightly) lives of a group of vampires in Staten Island who have “lived” together for hundreds and hundreds of years.",
+      "poster_path": "/upILoikY5tqkePrhBVNdInlOrD9.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 38.678,
+      "first_air_date": "2019-03-27",
+      "vote_average": 8.0,
+      "vote_count": 391,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eyi5tMbK6fRtXNFffUTIhRiX0LT.jpg",
+      "id": 2359,
+      "name": "Spin City",
+      "original_language": "en",
+      "original_name": "Spin City",
+      "overview": "Workaholic Mike Flaherty is the Deputy Mayor of New York City, serving as Mayor Randall Winston's key strategist and much-needed handler. Mike runs the city with the help of his oddball staff: an anxious and insecure press secretary; a sexist, boorish chief of staff; an impeccably groomed gay activist running minority affairs; a sharp and efficient, man-crazy accountant; and an idealistic young speechwriter. Like Mike, they are all professionally capable but personally challenged.",
+      "poster_path": "/3Ksmbpg33PigXKWncD8rFMl24vF.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "popularity": 34.961,
+      "first_air_date": "1996-09-17",
+      "vote_average": 7.066,
+      "vote_count": 227,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6lmsdKc0SB6hpiL0B7fjSMLMdLs.jpg",
+      "id": 720,
+      "name": "DuckTales",
+      "original_language": "en",
+      "original_name": "DuckTales",
+      "overview": "Scrooge McDuck finds his hands full at home when nephews Huey, Dewey and Louie move to Duckburg. Joined by their loyal pals Launchpad McQuack, Gyro Gearloose and Mrs. Beakley, the DuckTales gang never fails to deliver a wealth of adventure. Get ready for a fortune of fun with DuckTales!",
+      "poster_path": "/muplnM90daPCQ5Bn1olcwN1EO22.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10751,
+        16,
+        9648,
+        10765
+      ],
+      "popularity": 46.722,
+      "first_air_date": "1987-09-18",
+      "vote_average": 7.6,
+      "vote_count": 514,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bmqbuK2fB5skmVwZeLTqun68waa.jpg",
+      "id": 61018,
+      "name": "Whose Line Is It Anyway?",
+      "original_language": "en",
+      "original_name": "Whose Line Is It Anyway?",
+      "overview": "The show where everything's made up and the points don't matter. Not a talk show, not a sitcom, not a game show, Whose Line Is It Anyway? is a completely unique concept to network television. Four talented actors perform completely unrehearsed skits and games in front of a studio audience. Host Drew Carey sets the scene, with contributions from the audience, but the actors rely completely on their quick wit and improvisational skills. It's genuinely improvised, so anything can happen - and often does.",
+      "poster_path": "/kuRhXc42nCQU4AiQ8EnZx9lpPcU.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 29.33,
+      "first_air_date": "1998-08-05",
+      "vote_average": 7.799,
+      "vote_count": 251,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qz9K2gCXWFv6HaxsypIPKnHLGDt.jpg",
+      "id": 60766,
+      "name": "Sirens",
+      "original_language": "en",
+      "original_name": "Sirens",
+      "overview": "A comedy that follows three Chicago EMTs who despite their narcissistic and self-destructive personalities are uniquely qualified to save lives.",
+      "poster_path": "/wdG95aoAObYrS5fC7l3zWRcAkFD.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 13.451,
+      "first_air_date": "2014-03-06",
+      "vote_average": 6.9,
+      "vote_count": 43,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/A2W2EFf1HfQfHauLfD043Gv5RYR.jpg",
+      "id": 42421,
+      "name": "Panty & Stocking with Garterbelt",
+      "original_language": "ja",
+      "original_name": "パンティ＆ストッキングwithガーターベルト",
+      "overview": "Panty and Stocking are nasty angels who were banished from the pearly gates for being foul-mouthed bad girls! Now they spend their days hunting ghosts in the lecherous abyss between Heaven and Earth. Panty likes sex, Stocking likes sweets, and their afro-sporting main man Garter Belt has a fetish we can't mention.",
+      "poster_path": "/620mZ7Lo8B1681F2ts4HeBIkLRz.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "popularity": 28.198,
+      "first_air_date": "2010-10-02",
+      "vote_average": 7.574,
+      "vote_count": 27,
+      "origin_country": [
+        "JP"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uj7yQaSaOQh1JBz6v3EQ0vAPwmc.jpg",
+      "id": 13120,
+      "name": "Code Monkeys",
+      "original_language": "en",
+      "original_name": "Code Monkeys",
+      "overview": "Set in the early 1980s, Code Monkeys follows the adventures of fictional video game company GameAVision.",
+      "poster_path": "/2L1RypC1PrjxPGoi5Fo3nBQ0Cxg.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "popularity": 3.654,
+      "first_air_date": "2007-07-11",
+      "vote_average": 7.342,
+      "vote_count": 19,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+      "id": 66732,
+      "name": "Stranger Things",
+      "original_language": "en",
+      "original_name": "Stranger Things",
+      "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+      "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10765,
+        9648
+      ],
+      "popularity": 471.396,
+      "first_air_date": "2016-07-15",
+      "vote_average": 8.642,
+      "vote_count": 14376,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/un5r5MwwzEBwN1XEpPzeDoeu6fq.jpg",
+      "id": 2490,
+      "name": "The IT Crowd",
+      "original_language": "en",
+      "original_name": "The IT Crowd",
+      "overview": "Two I.T. nerds and their clueless female manager, who work in the basement of a very successful company. When they are called on for help, they are never treated with any respect at all.",
+      "poster_path": "/qZXkBoOUYzvKI4UCMzDQ5kqWHjh.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 33.301,
+      "first_air_date": "2006-02-03",
+      "vote_average": 8.108,
+      "vote_count": 1015,
+      "origin_country": [
+        "GB"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rkB4LyZHo1NHXFEDHl9vSD9r1lI.jpg",
+      "id": 94605,
+      "name": "Arcane",
+      "original_language": "en",
+      "original_name": "Arcane",
+      "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+      "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        16,
+        10765,
+        10759,
+        18
+      ],
+      "popularity": 92.551,
+      "first_air_date": "2021-11-06",
+      "vote_average": 8.744,
+      "vote_count": 2695,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+      "id": 1399,
+      "name": "Game of Thrones",
+      "original_language": "en",
+      "original_name": "Game of Thrones",
+      "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "poster_path": "/7WUHnWGx5OO145IRxPDUkQSh4C7.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10765,
+        18,
+        10759
+      ],
+      "popularity": 821.623,
+      "first_air_date": "2011-04-17",
+      "vote_average": 8.429,
+      "vote_count": 19800,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rX5hvSRB2k4YoIvRg6Zky52rWk0.jpg",
+      "id": 63247,
+      "name": "Westworld",
+      "original_language": "en",
+      "original_name": "Westworld",
+      "overview": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+      "poster_path": "/8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10765,
+        37
+      ],
+      "popularity": 108.663,
+      "first_air_date": "2016-10-02",
+      "vote_average": 8.109,
+      "vote_count": 4534,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/foDTy1NcfTzKnzXzgTp1FBu653F.jpg",
+      "id": 615,
+      "name": "Futurama",
+      "original_language": "en",
+      "original_name": "Futurama",
+      "overview": "The adventures of a late-20th-century New York City pizza delivery boy, Philip J. Fry, who, after being unwittingly cryogenically frozen for one thousand years, finds employment at Planet Express, an interplanetary delivery company in the retro-futuristic 31st century.",
+      "poster_path": "/k5e8kAq9jpaSmgvFM10su5LXGFR.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        16,
+        10759,
+        35,
+        10765
+      ],
+      "popularity": 130.466,
+      "first_air_date": "1999-03-28",
+      "vote_average": 8.389,
+      "vote_count": 2486,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/x4DO7mY7usT8BwLiHTUsYT7EKbc.jpg",
+      "id": 1418,
+      "name": "The Big Bang Theory",
+      "original_language": "en",
+      "original_name": "The Big Bang Theory",
+      "overview": "The sitcom is centered on five characters living in Pasadena, California: roommates Leonard Hofstadter and Sheldon Cooper; Penny, a waitress and aspiring actress who lives across the hall; and Leonard and Sheldon's equally geeky and socially awkward friends and co-workers, mechanical engineer Howard Wolowitz and astrophysicist Raj Koothrappali. The geekiness and intellect of the four guys is contrasted for comic effect with Penny's social skills and common sense.",
+      "poster_path": "/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 177.681,
+      "first_air_date": "2007-09-24",
+      "vote_average": 7.852,
+      "vote_count": 9315,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lnEU5KKrpQNsDaxxjDHuzRRh8Zl.jpg",
+      "id": 56570,
+      "name": "Outlander",
+      "original_language": "en",
+      "original_name": "Outlander",
+      "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
+      "poster_path": "/oR0PM7hFDqY3kO12cLLQMKiJt8I.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "popularity": 115.393,
+      "first_air_date": "2014-08-09",
+      "vote_average": 8.213,
+      "vote_count": 2211,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg",
+      "id": 456,
+      "name": "The Simpsons",
+      "original_language": "en",
+      "original_name": "The Simpsons",
+      "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+      "poster_path": "/zI3E2a3WYma5w8emI35mgq5Iurx.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10751,
+        16,
+        35
+      ],
+      "popularity": 539.239,
+      "first_air_date": "1989-12-17",
+      "vote_average": 7.977,
+      "vote_count": 8380,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zaulpwl355dlKkvtAiSBE5LaoWA.jpg",
+      "id": 1402,
+      "name": "The Walking Dead",
+      "original_language": "en",
+      "original_name": "The Walking Dead",
+      "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+      "poster_path": "/xf9wuDcqlUPWABZNeDKPbZUjWx0.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10759,
+        18,
+        10765
+      ],
+      "popularity": 2516.603,
+      "first_air_date": "2010-10-31",
+      "vote_average": 8.112,
+      "vote_count": 14067,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/900tHlUYUkp7Ol04XFSoAaEIXcT.jpg",
+      "id": 87108,
+      "name": "Chernobyl",
+      "original_language": "en",
+      "original_name": "Chernobyl",
+      "overview": "The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.",
+      "poster_path": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 51.356,
+      "first_air_date": "2019-05-06",
+      "vote_average": 8.618,
+      "vote_count": 4508,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/18inwHlpKnK9mt02wFBJoIVKXI.jpg",
+      "id": 69629,
+      "name": "The Gifted",
+      "original_language": "en",
+      "original_name": "The Gifted",
+      "overview": "A suburban couple's ordinary lives are rocked by the sudden discovery that their children possess mutant powers. Forced to go on the run from a hostile government, the family joins up with an underground network of mutants and must fight to survive.",
+      "poster_path": "/nshCqszjTNuqhrB53vrSqWO18sE.jpg",
+      "media_type": "tv",
+      "genre_ids": [
+        10765,
+        10759,
+        18
+      ],
+      "popularity": 51.1,
+      "first_air_date": "2017-10-02",
+      "vote_average": 7.695,
+      "vote_count": 1283,
+      "origin_country": [
+        "US"
+      ]
+    }
+  ],
+  "total_pages": 2,
+  "total_results": 40
+}

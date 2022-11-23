@@ -1,0 +1,76 @@
+{
+  "adult": false,
+  "backdrop_path": "/se2jymoLDghIrLewQismwfmWG.jpg",
+  "created_by": [],
+  "episode_run_time": [
+    60
+  ],
+  "first_air_date": "2005-06-08",
+  "genres": [],
+  "homepage": "",
+  "id": 11,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2005-08-24",
+  "last_episode_to_air": {
+    "air_date": "2005-08-24",
+    "episode_number": 10,
+    "id": 1130622,
+    "name": "Sexual Chemistry",
+    "overview": "",
+    "production_code": "",
+    "runtime": 60,
+    "season_number": 1,
+    "show_id": 11,
+    "still_path": null,
+    "vote_average": 0.0,
+    "vote_count": 0
+  },
+  "name": "Strictly Sex with Dr. Drew",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 10,
+      "name": "Discovery Health Channel",
+      "logo_path": "/yiBepnHS6gdzlT6ZIehYnNl0nEG.png",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Strictly Sex with Dr. Drew",
+  "overview": "Strictly Sex with Dr. Drew is a television show hosted by Loveline host Dr. Drew Pinsky. It ran for 10 episodes in all, and is still featured on the Discovery Health channel.",
+  "popularity": 1.546,
+  "poster_path": "/3hFpUg6Ty25Vs5XgbnNz1Xcirb5.jpg",
+  "production_companies": [],
+  "production_countries": [],
+  "seasons": [
+    {
+      "air_date": "2005-06-08",
+      "episode_count": 10,
+      "id": 2328145,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 1
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 0.0,
+  "vote_count": 0
+}
