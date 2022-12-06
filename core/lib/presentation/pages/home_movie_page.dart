@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:core/utils/routes.dart';
 import '../../core.dart';
 import '../../domain/entities/movie.dart';
 import 'package:about/about.dart';
 import '../../presentation/pages/movie_detail_page.dart';
 import '../../presentation/pages/popular_movies_page.dart';
-import '../../presentation/pages/search_movie_page.dart';
 import '../../presentation/pages/top_rated_movies_page.dart';
 import '../../presentation/pages/watchlist_movies_page.dart';
 import '../../presentation/provider/movie_list_notifier.dart';
@@ -76,7 +76,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.pushNamed(context, SearchMoviePage.ROUTE_NAME);
+              Navigator.pushNamed(context, SEARCH_MOVIE_ROUTE);
             },
             icon: Icon(Icons.search),
           )

@@ -1,8 +1,7 @@
-name: about
+name: tv_show
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
-
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
@@ -11,15 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  core:
-    path: ../core
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
-# following pages: https://dart.dev/tools/pub/pubspec
+# following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:

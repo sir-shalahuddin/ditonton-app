@@ -1,10 +1,10 @@
 import 'package:about/about.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:core/utils/routes.dart';
 import '../../core.dart';
 import '../../domain/entities/tv.dart';
 import '../../presentation/pages/now_playing_tvs_page.dart';
 import '../../presentation/pages/popular_tvs_page.dart';
-import '../../presentation/pages/search_tv_page.dart';
 import '../../presentation/pages/top_rated_tvs_page.dart';
 import '../../presentation/pages/tv_detail_page.dart';
 import '../../presentation/pages/watchlist_movies_page.dart';
@@ -76,7 +76,7 @@ class _HomeTvPageState extends State<HomeTvPage> {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.pushNamed(context, SearchTvPage.ROUTE_NAME);
+              Navigator.pushNamed(context, SEARCH_TV_ROUTE);
             },
             icon: Icon(Icons.search),
           )

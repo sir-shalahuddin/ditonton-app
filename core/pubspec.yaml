@@ -23,6 +23,8 @@ dependencies:
   path_provider: ^2.0.2
   about:
     path: ../about
+  search:
+    path: ../search
 
 
 dev_dependencies:
@@ -32,7 +34,7 @@ dev_dependencies:
   build_runner: ^2.0.4
 
 # For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+# following pages: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:

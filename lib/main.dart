@@ -1,21 +1,17 @@
-import 'package:core/core.dart';
-import 'package:ditonton/injection.dart' as di;
 import 'package:about/about_page.dart';
+import 'package:core/core.dart';
 import 'package:core/presentation/pages/home_movie_page.dart';
 import 'package:core/presentation/pages/home_tv_page.dart';
 import 'package:core/presentation/pages/movie_detail_page.dart';
 import 'package:core/presentation/pages/now_playing_tvs_page.dart';
 import 'package:core/presentation/pages/popular_movies_page.dart';
 import 'package:core/presentation/pages/popular_tvs_page.dart';
-import 'package:core/presentation/pages/search_movie_page.dart';
-import 'package:core/presentation/pages/search_tv_page.dart';
 import 'package:core/presentation/pages/top_rated_movies_page.dart';
 import 'package:core/presentation/pages/top_rated_tvs_page.dart';
 import 'package:core/presentation/pages/tv_detail_page.dart';
 import 'package:core/presentation/pages/watchlist_movies_page.dart';
 import 'package:core/presentation/provider/movie_detail_notifier.dart';
 import 'package:core/presentation/provider/movie_list_notifier.dart';
-import 'package:core/presentation/provider/movie_search_notifier.dart';
 import 'package:core/presentation/provider/now_playing_tvs_notifier.dart';
 import 'package:core/presentation/provider/popular_movies_notifier.dart';
 import 'package:core/presentation/provider/popular_tvs_notifier.dart';
@@ -23,12 +19,17 @@ import 'package:core/presentation/provider/top_rated_movies_notifier.dart';
 import 'package:core/presentation/provider/top_rated_tvs_notifier.dart';
 import 'package:core/presentation/provider/tv_detail_notifier.dart';
 import 'package:core/presentation/provider/tv_list_notifier.dart';
-import 'package:core/presentation/provider/tv_search_notifier.dart';
 import 'package:core/presentation/provider/watchlist_movie_notifier.dart';
 import 'package:core/presentation/provider/watchlist_tv_notifier.dart';
+import 'package:ditonton/injection.dart' as di;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
+import 'package:search/presentation/bloc/movie_search_bloc.dart';
+import 'package:search/presentation/pages/search_movie_page.dart';
+import 'package:search/presentation/pages/search_tv_page.dart';
+import 'package:search/presentation/provider/tv_search_notifier.dart';
 
 void main() {
   di.init();
@@ -52,9 +53,9 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (_) => di.locator<TvDetailNotifier>(),
         ),
-        ChangeNotifierProvider(
-          create: (_) => di.locator<MovieSearchNotifier>(),
-        ),
+        // ChangeNotifierProvider(
+        //   create: (_) => di.locator<MovieSearchNotifier>(),
+        // ),
         ChangeNotifierProvider(
           create: (_) => di.locator<TvSearchNotifier>(),
         ),
@@ -78,6 +79,9 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => di.locator<WatchlistTvNotifier>(),
+        ),
+        BlocProvider(
+          create: (_) => di.locator<MovieSearchBloc>(),
         ),
       ],
       child: MaterialApp(
