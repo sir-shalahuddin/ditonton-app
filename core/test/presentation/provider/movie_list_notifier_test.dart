@@ -4,7 +4,7 @@ import 'package:core/domain/usecases/get_now_playing_movies.dart';
 import 'package:core/core.dart';
 import 'package:core/domain/usecases/get_popular_movies.dart';
 import 'package:core/domain/usecases/get_top_rated_movies.dart';
-import 'package:core/presentation/provider/movie_list_notifier.dart';
+import 'package:core/presentation/bloc/movie_list_notifier.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -109,7 +109,7 @@ void main() {
       provider.fetchPopularMovies();
       // assert
       expect(provider.popularMoviesState, RequestState.Loading);
-      // verify(provider.setState(RequestState.Loading));
+      // verify(bloc.setState(RequestState.Loading));
     });
 
     test('should change movies data when data is gotten successfully',

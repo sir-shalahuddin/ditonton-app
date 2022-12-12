@@ -13,7 +13,7 @@ import 'package:core/domain/usecases/get_tv_detail.dart' as _i2;
 import 'package:core/domain/usecases/get_tv_recommendations.dart' as _i3;
 import 'package:core/domain/usecases/get_watchlist_tv_status.dart' as _i4;
 import 'package:core/domain/usecases/remove_watchlist_tv.dart' as _i6;
-import 'package:core/domain/usecases/save_watchlist_tv.dart' as _i5;
+import '../../../../watchlist/lib/domain/usecases/save_watchlist_tv.dart' as _i5;
 import 'package:core/presentation/provider/tv_detail_notifier.dart' as _i8;
 import 'package:mockito/mockito.dart' as _i1;
 

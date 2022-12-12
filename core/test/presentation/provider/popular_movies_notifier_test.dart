@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:core/core.dart';
 import 'package:core/domain/entities/movie.dart';
 import 'package:core/domain/usecases/get_popular_movies.dart';
-import 'package:core/presentation/provider/popular_movies_notifier.dart';
+import 'package:core/presentation/bloc/popular_movies_notifier.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

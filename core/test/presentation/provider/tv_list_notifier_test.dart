@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:core/domain/entities/tv.dart';
-import 'package:core/domain/usecases/get_now_playing_tv.dart';
+import '../../../../tv_show/lib/domain/usecases/get_now_playing_tv.dart';
 import 'package:core/domain/usecases/get_popular_tv.dart';
 import 'package:core/domain/usecases/get_top_rated_tv.dart';
 import 'package:core/core.dart';
@@ -61,7 +61,7 @@ void main() {
       when(mockGetNowPlayingTvs.execute())
           .thenAnswer((_) async => Right(tTvList));
       // act
-      provider.fetchNowPlayingTvs();
+      provider.getNowPlayingTvs();
       // assert
       verify(mockGetNowPlayingTvs.execute());
     });
@@ -71,7 +71,7 @@ void main() {
       when(mockGetNowPlayingTvs.execute())
           .thenAnswer((_) async => Right(tTvList));
       // act
-      provider.fetchNowPlayingTvs();
+      provider.getNowPlayingTvs();
       // assert
       expect(provider.nowPlayingState, RequestState.Loading);
     });
@@ -81,7 +81,7 @@ void main() {
       when(mockGetNowPlayingTvs.execute())
           .thenAnswer((_) async => Right(tTvList));
       // act
-      await provider.fetchNowPlayingTvs();
+      await provider.getNowPlayingTvs();
       // assert
       expect(provider.nowPlayingState, RequestState.Loaded);
       expect(provider.nowPlayingTvs, tTvList);
@@ -93,7 +93,7 @@ void main() {
       when(mockGetNowPlayingTvs.execute())
           .thenAnswer((_) async => Left(ServerFailure('Server Failure')));
       // act
-      await provider.fetchNowPlayingTvs();
+      await provider.getNowPlayingTvs();
       // assert
       expect(provider.nowPlayingState, RequestState.Error);
       expect(provider.message, 'Server Failure');
@@ -110,7 +110,7 @@ void main() {
       provider.fetchPopularTvs();
       // assert
       expect(provider.popularTvsState, RequestState.Loading);
-      // verify(provider.setState(RequestState.Loading));
+      // verify(bloc.setState(RequestState.Loading));
     });
 
     test('should change tvs data when data is gotten successfully',

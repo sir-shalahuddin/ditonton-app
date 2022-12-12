@@ -4,7 +4,7 @@ import 'package:core/domain/usecases/get_tv_detail.dart';
 import 'package:core/domain/usecases/get_tv_recommendations.dart';
 import 'package:core/domain/usecases/get_watchlist_tv_status.dart';
 import 'package:core/domain/usecases/remove_watchlist_tv.dart';
-import 'package:core/domain/usecases/save_watchlist_tv.dart';
+import '../../../../watchlist/lib/domain/usecases/save_watchlist_tv.dart';
 import 'package:core/core.dart';
 import 'package:core/presentation/provider/tv_detail_notifier.dart';
 import 'package:flutter_test/flutter_test.dart';

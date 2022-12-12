@@ -1,12 +1,12 @@
 import 'package:dartz/dartz.dart';
 import 'package:core/domain/entities/movie.dart';
 import 'package:core/domain/usecases/get_movie_detail.dart';
-import 'package:core/domain/usecases/get_movie_recommendations.dart';
+import '../../../../movie/lib/domain/usecases/get_movie_recommendations.dart';
 import 'package:core/core.dart';
 import 'package:core/domain/usecases/get_watchlist_movie_status.dart';
 import 'package:core/domain/usecases/remove_watchlist_movie.dart';
 import 'package:core/domain/usecases/save_watchlist_movie.dart';
-import 'package:core/presentation/provider/movie_detail_notifier.dart';
+import 'package:core/presentation/bloc/movie_detail_notifier.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

@@ -8,8 +8,8 @@ import 'dart:ui' as _i7;
 
 import 'package:core/core.dart' as _i4;
 import 'package:core/domain/entities/tv.dart' as _i5;
-import 'package:core/domain/usecases/get_now_playing_tv.dart' as _i2;
-import 'package:core/presentation/provider/now_playing_tvs_notifier.dart'
+import '../../../../tv_show/lib/domain/usecases/get_now_playing_tv.dart' as _i2;
+import '../../../../tv_show/lib/presentation/provider/now_playing_tvs_notifier.dart'
     as _i3;
 import 'package:mockito/mockito.dart' as _i1;
 

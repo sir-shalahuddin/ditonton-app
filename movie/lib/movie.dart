@@ -1,7 +1,13 @@
 library movie;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'domain/usecases/get_movie_detail.dart';
+export 'domain/usecases/get_movie_recommendations.dart';
+export 'domain/usecases/get_now_playing_movies.dart';
+export 'domain/usecases/get_popular_movies.dart';
+export 'domain/usecases/get_top_rated_movies.dart';
+export 'domain/usecases/remove_watchlist_movie.dart';
+export 'domain/usecases/save_watchlist_movie.dart';
+export 'presentation/pages/home_movie_page.dart';
+export 'presentation/pages/movie_detail_page.dart';
+export 'presentation/pages/popular_movies_page.dart';
+export 'presentation/pages/top_rated_movies_page.dart';
