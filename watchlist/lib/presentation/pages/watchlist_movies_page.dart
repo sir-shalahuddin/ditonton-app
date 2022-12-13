@@ -5,7 +5,6 @@ import 'package:core/presentation/widgets/movie_card_list.dart';
 import 'package:core/presentation/widgets/tv_card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
 
 import '../bloc/watchlist_movie/watchlist_movie_bloc.dart';
 import '../bloc/watchlist_tv/watchlist_tv_bloc.dart';
@@ -14,7 +13,10 @@ import '../bloc/watchlist_tv/watchlist_tv_bloc.dart';
 class WatchlistMoviesPage extends StatefulWidget {
   static const ROUTE_NAME = '/watchlist-movie';
 
+  const WatchlistMoviesPage({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _WatchlistMoviesPageState createState() => _WatchlistMoviesPageState();
 }
 
@@ -24,10 +26,10 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
   void initState() {
     super.initState();
     Future.microtask(() =>
-        Provider.of<WatchlistMovieBloc>(context, listen: false)
+        BlocProvider.of<WatchlistMovieBloc>(context, listen: false)
             .add(WatchlistMovieEvent()),);
     Future.microtask(() =>
-        Provider.of<WatchlistTvBloc>(context, listen: false)
+        BlocProvider.of<WatchlistTvBloc>(context, listen: false)
             .add(WatchlistTvEvent()),);
   }
 
@@ -39,9 +41,9 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
 
   @override
   void didPopNext() {
-    Provider.of<WatchlistMovieBloc>(context, listen: false)
+    BlocProvider.of<WatchlistMovieBloc>(context, listen: false)
         .add(WatchlistMovieEvent());
-    Provider.of<WatchlistTvBloc>(context, listen: false)
+    BlocProvider.of<WatchlistTvBloc>(context, listen: false)
         .add(WatchlistTvEvent());
   }
 

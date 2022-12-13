@@ -3,12 +3,12 @@ import 'package:core/domain/entities/movie.dart';
 import 'package:core/domain/entities/movie_detail.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:watchlist/domain/usecases/remove_watchlist_movie.dart';
+import 'package:watchlist/domain/usecases/save_watchlist_movie.dart';
 import 'package:watchlist/watchlist.dart';
 
 import '../../../domain/usecases/get_movie_detail.dart';
 import '../../../domain/usecases/get_movie_recommendations.dart';
-import '../../../domain/usecases/remove_watchlist_movie.dart';
-import '../../../domain/usecases/save_watchlist_movie.dart';
 
 part 'movie_detail_event.dart';
 

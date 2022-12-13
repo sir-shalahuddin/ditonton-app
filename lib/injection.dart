@@ -7,6 +7,7 @@ import 'package:core/data/repositories/movie_repository_impl.dart';
 import 'package:core/data/repositories/tv_repository_impl.dart';
 import 'package:core/domain/repositories/movie_repository.dart';
 import 'package:core/domain/repositories/tv_repository.dart';
+import 'package:core/utils/http_ssl_pinning.dart';
 import 'package:movie/movie.dart';
 import 'package:movie/presentation/bloc/movie_detail/movie_detail_bloc.dart';
 import 'package:movie/presentation/bloc/movie_list/movie_list_bloc.dart';
@@ -17,7 +18,6 @@ import 'package:search/domain/usecases/search_tvs.dart';
 import 'package:search/presentation/bloc/movie_search_bloc.dart';
 import 'package:search/presentation/bloc/tv_search_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:http/http.dart' as http;
 import 'package:tv_show/domain/usecases/get_now_playing_tv.dart';
 import 'package:tv_show/domain/usecases/get_popular_tv.dart';
 import 'package:tv_show/domain/usecases/get_top_rated_tv.dart';
@@ -28,6 +28,8 @@ import 'package:tv_show/presentation/bloc/popular_tvs/popular_tvs_bloc.dart';
 import 'package:tv_show/presentation/bloc/top_rated_tvs/top_rated_tvs_bloc.dart';
 import 'package:tv_show/presentation/bloc/tv_detail/tv_detail_bloc.dart';
 import 'package:tv_show/presentation/bloc/tv_list/tv_list_bloc.dart';
+import 'package:watchlist/domain/usecases/remove_watchlist_movie.dart';
+import 'package:watchlist/domain/usecases/save_watchlist_movie.dart';
 import 'package:watchlist/presentation/bloc/watchlist_movie/watchlist_movie_bloc.dart';
 import 'package:watchlist/presentation/bloc/watchlist_tv/watchlist_tv_bloc.dart';
 import 'package:watchlist/watchlist.dart';
@@ -171,5 +173,5 @@ void init() {
   locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper());
 
   // external
-  locator.registerLazySingleton(() => http.Client());
+  locator.registerLazySingleton(() => HttpSSLPinning.client);
 }

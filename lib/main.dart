@@ -1,7 +1,9 @@
 import 'package:about/about_page.dart';
 import 'package:core/core.dart';
+import 'package:core/utils/http_ssl_pinning.dart';
 import 'package:core/utils/routes.dart';
 import 'package:ditonton/injection.dart' as di;
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -20,16 +22,23 @@ import 'package:tv_show/presentation/bloc/popular_tvs/popular_tvs_bloc.dart';
 import 'package:tv_show/presentation/bloc/top_rated_tvs/top_rated_tvs_bloc.dart';
 import 'package:tv_show/presentation/bloc/tv_detail/tv_detail_bloc.dart';
 import 'package:tv_show/presentation/bloc/tv_list/tv_list_bloc.dart';
-
-
 import 'package:tv_show/presentation/pages/home_tv_page.dart';
 import 'package:tv_show/presentation/pages/now_playing_tvs_page.dart';
 import 'package:tv_show/presentation/pages/popular_tvs_page.dart';
 import 'package:tv_show/presentation/pages/top_rated_tvs_page.dart';
-import 'package:tv_show/presentation/pages/tv_detail_page.dart';import 'package:watchlist/presentation/bloc/watchlist_movie/watchlist_movie_bloc.dart';import 'package:watchlist/presentation/bloc/watchlist_tv/watchlist_tv_bloc.dart';
+import 'package:tv_show/presentation/pages/tv_detail_page.dart';
+import 'package:watchlist/presentation/bloc/watchlist_movie/watchlist_movie_bloc.dart';
+import 'package:watchlist/presentation/bloc/watchlist_tv/watchlist_tv_bloc.dart';
 import 'package:watchlist/watchlist.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  await HttpSSLPinning.init();
   di.init();
   runApp(MyApp());
 }
@@ -63,7 +72,6 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (_) => di.locator<TvDetailBloc>(),
         ),
-
         BlocProvider(
           create: (_) => di.locator<TvSearchBloc>(),
         ),

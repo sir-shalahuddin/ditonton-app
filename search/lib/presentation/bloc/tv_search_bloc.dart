@@ -23,7 +23,7 @@ class TvSearchBloc extends Bloc<TvSearchEvent, TvSearchState> {
         },
         (data) {
           if (data.isEmpty)
-            emit(SearchHasNoData("movie not found"));
+            emit(SearchHasNoData("tv show not found"));
           else
             emit(SearchHasData(data));
         },
