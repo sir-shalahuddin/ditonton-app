@@ -10,10 +10,12 @@ import 'package:mockito/mockito.dart';
 import 'package:tv_show/domain/usecases/get_tv_detail.dart';
 import 'package:tv_show/domain/usecases/get_tv_recommendations.dart';
 import 'package:tv_show/presentation/bloc/tv_detail/tv_detail_bloc.dart';
-import 'package:watchlist/watchlist.dart';
+import 'package:watchlist/domain/usecases/get_watchlist_tv_status.dart';
+import 'package:watchlist/domain/usecases/remove_watchlist_tv.dart';
+import 'package:watchlist/domain/usecases/save_watchlist_tv.dart';
+
 
 import 'tv_detail_test.mocks.dart';
-
 
 @GenerateMocks([
   GetTvDetail,
@@ -44,7 +46,7 @@ void main() {
         removeWatchlist: mockRemoveWatchlistTv);
   });
 
-  const testId = 1;
+  const testId = 2;
   final tvDetailStateInit = TvDetailState.initial();
   final testTv = Tv(
     backdropPath: '/w0eG4lpAigocIZzJYrYp3cCmyUx.jpg',
@@ -55,7 +57,7 @@ void main() {
     originalLanguage: "en",
     originalName: "Clerks: The Animated Series",
     overview:
-    "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+        "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
     popularity: 8.636,
     posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
     voteAverage: 6.903,
@@ -67,12 +69,12 @@ void main() {
   final testTvDetail = TvDetail(
     backdropPath: '/w0eG4lpAigocIZzJYrYp3cCmyUx.jpg',
     firstAirDate: "2002-12-14",
-    genres : [Genre(id: 16, name: "Animation"),Genre(id: 35, name: "Comedy")],
+    genres: [Genre(id: 16, name: "Animation"), Genre(id: 35, name: "Comedy")],
     id: 2,
     name: 'The Last Episode Ever',
     originalName: "Clerks: The Animated Series",
     overview:
-    "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
+        "The guys' day slacking off at the Quick Stop is derailed by a spoof of \"The Matrix,\" a carnival riot and a trip through the minds of their illustrators.",
     posterPath: '/xunXvzFlkf1GGgMkCySA9CCFumB.jpg',
     tagline: "",
     voteAverage: 6.903,

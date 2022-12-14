@@ -9,9 +9,10 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:movie/movie.dart';
 import 'package:movie/presentation/bloc/movie_detail/movie_detail_bloc.dart';
-import 'package:watchlist/domain/usecases/get_watchlist_movie_status.dart';
 import 'package:watchlist/domain/usecases/remove_watchlist_movie.dart';
 import 'package:watchlist/domain/usecases/save_watchlist_movie.dart';
+import 'package:watchlist/watchlist.dart';
+
 
 import 'movie_detail_test.mocks.dart';
 
